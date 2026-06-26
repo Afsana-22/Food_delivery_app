@@ -1,0 +1,21 @@
+{
+  "name": "zaptaste-fullstack",
+  "version": "1.0.0",
+  "description": "Zaptaste Food Delivery App",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm start --prefix frontend\"",
+    "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "concurrently": "^8.0.0",
+    "postcss": "^8.5.9",
+    "tailwindcss": "^4.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.15.0",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.8.0",
+    "react-router-dom": "^7.14.0"
+  }
+}

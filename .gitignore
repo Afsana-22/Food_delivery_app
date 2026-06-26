@@ -1,0 +1,22 @@
+# Dependencies (catch all nested node_modules at any depth)
+**/node_modules/
+
+# Environment variables (keep secrets safe!)
+.env
+backend/.env
+
+# Build outputs
+dist/
+backend/dist/
+frontend/dist/
+
+# Logs
+*.log
+backend/server.log
+
+# DB data
+db_data/
+
+# OS files
+.DS_Store
+Thumbs.db
